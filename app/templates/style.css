@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 36px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.square_closed {
+    background-color: black;
+}
